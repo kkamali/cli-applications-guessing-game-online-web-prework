@@ -5,5 +5,6 @@ def run_guessing_game
   guess = gets.chomp
   if guess == "exit"
     puts "Goodbye!"
+  elsif guess != random_number
   end
 end
